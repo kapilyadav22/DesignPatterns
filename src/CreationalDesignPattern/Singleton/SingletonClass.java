@@ -2,7 +2,7 @@ package CreationalDesignPattern.Singleton;
 
 class SingletonClass {
     private static SingletonClass instance;
-    private void SingletonClass() {
+    private SingletonClass() {
         System.out.println("Instance of Singleton");
     }
     public static  SingletonClass getInstance() {
